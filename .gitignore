@@ -1,0 +1,26 @@
+# scala
+target
+.bsp
+*.class
+
+#scala metals
+.metals/
+.bloop/
+
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+# Database
+database
+
+# Test
+database_test
+
+#Protocol folder
+src/main/resources/protocol*
+!src/main/resources/protocol/query/query.json
