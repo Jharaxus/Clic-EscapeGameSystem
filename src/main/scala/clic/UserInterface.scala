@@ -225,8 +225,6 @@ object UserInterface {
     var read = scala.io.StdIn.readLine()
     while (!read.equals(state.expect)) {
       state.onFail(read)
-      print("<" + read + ">")
-      print("<" + state.expect + ">\n")
       Thread.sleep(1000)
       state.onTry()
       read = scala.io.StdIn.readLine()
