@@ -99,7 +99,7 @@ object CountdownSystem {
       return
     }
     print("\n\n\n\n\n\n\n\n\n\n\n")
-    println("-- System Andromeda --")
+    println("-- System Terra --")
     printTime(minutes, seconds)
     Thread.sleep(1000)
 
